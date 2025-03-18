@@ -1,0 +1,110 @@
+module.exports = {
+  darkMode: "class",
+  content: [
+    "./src/**/*.{html,js,ts,jsx,tsx}",
+    "app/**/*.{ts,tsx}",
+    "components/**/*.{ts,tsx}",
+  ],
+  theme: {
+    extend: {
+      backgroundColor: {
+        "secondary-dark": "var(--bg-secondary-dark, #342F65)",
+      },
+      colors: {
+        "app-primary": "var(--app-primary)",
+        "bg-dark": "var(--bg-dark)",
+        "bg-light": "var(--bg-light)",
+        "bg-secondary-dark": "var(--bg-secondary-dark)",
+        "bg-secondary-light": "var(--bg-secondary-light)",
+        blue: "var(--blue)",
+        "blue-light": "var(--blue-light)",
+        "foreground-dark": "var(--foreground-dark)",
+        "foreground-light": "var(--foreground-light)",
+        green: "var(--green)",
+        orange: "var(--orange)",
+        "orange-light": "var(--orange-light)",
+        pink: "var(--pink)",
+        "pink-light": "var(--pink-light)",
+        "primary-bold": "var(--primary-bold)",
+        purple: "var(--purple)",
+        "purple-light": "var(--purple-light)",
+        red: "var(--red)",
+        yellow: "var(--yellow)",
+        "yellow-light": "var(--yellow-light)",
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        secondary: {
+          DEFAULT: "hsl(var(--secondary))",
+          foreground: "hsl(var(--secondary-foreground))",
+        },
+        destructive: {
+          DEFAULT: "hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted))",
+          foreground: "hsl(var(--muted-foreground))",
+        },
+        accent: {
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
+        },
+        popover: {
+          DEFAULT: "hsl(var(--popover))",
+          foreground: "hsl(var(--popover-foreground))",
+        },
+        card: {
+          DEFAULT: "hsl(var(--card))",
+          foreground: "hsl(var(--card-foreground))",
+        },
+      },
+      fontFamily: {
+        button: "var(--button-font-family)",
+        logo: "var(--logo-font-family)",
+        regular: "var(--regular-font-family)",
+        small: "var(--small-font-family)",
+        titles: "var(--titles-font-family)",
+        sans: [
+          "ui-sans-serif",
+          "system-ui",
+          "sans-serif",
+          '"Apple Color Emoji"',
+          '"Segoe UI Emoji"',
+          '"Segoe UI Symbol"',
+          '"Noto Color Emoji"',
+        ],
+        inter: ["Inter", "sans-serif"],
+      },
+      boxShadow: { shadow: "var(--shadow)" },
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
+      keyframes: {
+        "accordion-down": {
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "accordion-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+      },
+      animation: {
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
+      },
+    },
+    container: { center: true, padding: "2rem", screens: { "2xl": "1400px" } },
+  },
+  plugins: [],
+  darkMode: ["class"],
+};

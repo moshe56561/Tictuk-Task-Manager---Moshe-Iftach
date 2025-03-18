@@ -1,0 +1,25 @@
+:root {
+  --bg-dark: #1a1a1a;
+  --bg-light: #ffffff;
+  --foreground-dark: #ffffff;
+  --foreground-light: #000000;
+  --bg-secondary-dark: #2d2d2d;
+  --bg-secondary-light: #f0f0f0;
+  --app-primary: #4a90e2;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Add this to your global CSS file */
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "asfasfsafasfa",
+    "category": "Shop",
+    "title": "Go to the grocery store",
+    "icon": "Shop",
+    "iconBg": "bg-orange-light",
+    "progress": 0,
+    "subTasks": [
+      {
+        "id": "asfasfsafasdfgfa",
+        "completed": false,
+        "title": "Buy fruits",
+        "description": "Apples, bananas, and oranges"
+      },
+      {
+        "id": "assdfsdfsdffasfsafasfa",
+        "completed": false,
+        "title": "Buy vegetables",
+        "description": "Carrots, broccoli, and spinach"
+      }
+    ]
+  },
+  {
+    "id": "asfasdsfsdffsafasfa",
+    "category": "Shop",
+    "title": "Go to the butcher",
+    "icon": "Shop",
+    "iconBg": "bg-orange-light",
+    "progress": 0,
+    "subTasks": [
+      {
+        "id": "asfassdfsdfdsffsafasfa",
+        "completed": false,
+        "title": "Buy chicken",
+        "description": "2 kg of chicken breast"
+      },
+      {
+        "id": "asfsdfsdfsdfasfsafasfa",
+        "completed": false,
+        "title": "Buy beef",
+        "description": "1 kg of ground beef"
+      }
+    ]
+  },
+  {
+    "id": "asfasfsafassdsdfsdfsdffa",
+    "category": "Personal",
+    "title": "Meet Anya",
+    "icon": "Personal",
+    "iconBg": "bg-pink-light",
+    "progress": 0,
+    "subTasks": [
+      {
+        "id": "asfasfsasdfsdfsdffasfa",
+        "completed": false,
+        "title": "Plan the meeting",
+        "description": "Decide on the time and place"
+      },
+      {
+        "id": "asfsdfsdfsdfsdfsdfasfsafasfa",
+        "completed": false,
+        "title": "Prepare gifts",
+        "description": "Buy flowers and chocolates"
+      }
+    ]
+  }
+]
